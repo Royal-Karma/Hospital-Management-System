@@ -63,6 +63,76 @@ namespace Hospital_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AdobeStock_622936806_Preview {
+            get {
+                object obj = ResourceManager.GetObject("AdobeStock_622936806_Preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap AdobeStock_702373955_Preview {
+            get {
+                object obj = ResourceManager.GetObject("AdobeStock_702373955_Preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Alfa {
+            get {
+                object obj = ResourceManager.GetObject("Alfa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_doctor_1021799 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-doctor-1021799", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_home_page_2144 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-home-page-2144", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_home_page_21441 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-home-page-21441", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap free_icon_man_avatar_8253681 {
+            get {
+                object obj = ResourceManager.GetObject("free-icon-man-avatar-8253681", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hospital {
             get {
                 object obj = ResourceManager.GetObject("hospital", resourceCulture);

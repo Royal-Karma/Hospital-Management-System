@@ -119,9 +119,9 @@
             Licensce.Font = new Font("Microsoft JhengHei UI", 12F, FontStyle.Bold);
             Licensce.Location = new Point(968, 188);
             Licensce.Name = "Licensce";
-            Licensce.Size = new Size(255, 25);
+            Licensce.Size = new Size(245, 25);
             Licensce.TabIndex = 10;
-            Licensce.Text = "Medical licensce Number";
+            Licensce.Text = "Medical license Number";
             // 
             // textBox1
             // 

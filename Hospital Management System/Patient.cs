@@ -67,6 +67,10 @@ namespace Hospital_Management_System
 
                 throw;
             }
+            finally
+            { 
+                Con.Close(); 
+            }
         }
 
         private void CrossBtn_Click(object sender, EventArgs e)

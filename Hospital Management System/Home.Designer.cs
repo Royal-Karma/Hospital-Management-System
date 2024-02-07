@@ -38,10 +38,13 @@
             PatientBtn = new Button();
             LogoutBtn = new Button();
             CrossBtn = new Button();
+            DiagBtn = new Button();
+            pictureBox2 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -78,7 +81,7 @@
             // pictureBox4
             // 
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(476, 448);
+            pictureBox4.Location = new Point(476, 547);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(142, 125);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -88,7 +91,7 @@
             // pictureBox5
             // 
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(476, 238);
+            pictureBox5.Location = new Point(476, 223);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(142, 125);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -113,7 +116,7 @@
             PatientBtn.BackColor = Color.DeepSkyBlue;
             PatientBtn.FlatStyle = FlatStyle.Popup;
             PatientBtn.Font = new Font("Microsoft JhengHei UI", 13.8F, FontStyle.Bold);
-            PatientBtn.Location = new Point(654, 274);
+            PatientBtn.Location = new Point(654, 263);
             PatientBtn.Name = "PatientBtn";
             PatientBtn.Size = new Size(157, 60);
             PatientBtn.TabIndex = 8;
@@ -126,7 +129,7 @@
             LogoutBtn.BackColor = Color.DeepSkyBlue;
             LogoutBtn.FlatStyle = FlatStyle.Popup;
             LogoutBtn.Font = new Font("Microsoft JhengHei UI", 13.8F, FontStyle.Bold);
-            LogoutBtn.Location = new Point(654, 484);
+            LogoutBtn.Location = new Point(654, 591);
             LogoutBtn.Name = "LogoutBtn";
             LogoutBtn.Size = new Size(157, 60);
             LogoutBtn.TabIndex = 10;
@@ -147,12 +150,36 @@
             CrossBtn.UseVisualStyleBackColor = false;
             CrossBtn.Click += CrossBtn_Click;
             // 
+            // DiagBtn
+            // 
+            DiagBtn.BackColor = Color.DeepSkyBlue;
+            DiagBtn.FlatStyle = FlatStyle.Popup;
+            DiagBtn.Font = new Font("Microsoft JhengHei UI", 13.8F, FontStyle.Bold);
+            DiagBtn.Location = new Point(654, 427);
+            DiagBtn.Name = "DiagBtn";
+            DiagBtn.Size = new Size(157, 60);
+            DiagBtn.TabIndex = 13;
+            DiagBtn.Text = "Diagnosis";
+            DiagBtn.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.AdobeStock_702373955_Preview;
+            pictureBox2.Location = new Point(476, 383);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(142, 122);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 14;
+            pictureBox2.TabStop = false;
+            // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DeepSkyBlue;
             ClientSize = new Size(1376, 725);
+            Controls.Add(pictureBox2);
+            Controls.Add(DiagBtn);
             Controls.Add(CrossBtn);
             Controls.Add(LogoutBtn);
             Controls.Add(PatientBtn);
@@ -171,6 +198,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -186,5 +214,7 @@
         private Button PatientBtn;
         private Button LogoutBtn;
         private Button CrossBtn;
+        private Button DiagBtn;
+        private PictureBox pictureBox2;
     }
 }
