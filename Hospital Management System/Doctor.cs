@@ -11,7 +11,7 @@ namespace Hospital_Management_System
             DisplayDoctor();
         }
 
-        readonly SqlConnection Con = new SqlConnection(connectionString: @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\OsiyoComputers\Documents\Hospital MS.mdf"";Integrated Security=True;Connect Timeout=30");
+        readonly SqlConnection Con = new SqlConnection(connectionString: @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\OsiyoComputers\Documents\Hospital MS.mdf;Integrated Security=True;Connect Timeout=30");
         private void DisplayDoctor()
         {
             try
